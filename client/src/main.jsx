@@ -13,6 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
       <App />
     </React.StrictMode>
-
-</ChakraProvider>
+  </ChakraProvider>
 )
+//copmentario provisorio
