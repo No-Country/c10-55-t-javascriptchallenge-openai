@@ -1,15 +1,19 @@
-import { ChakraProvider } from '@chakra-ui/react'
+//import { ChakraProvider } from '@chakra-ui/react'
 import { Button, ButtonGroup } from '@chakra-ui/react'
 
 
 
+
+import Nav from "../src/Components/Nav"
+import Home from "../src/Components/Home"
+
+
 export default function App() {
   return (
-    <ChakraProvider>
-
-      <h1 className="text-3xl font-bold underline bg-slate-600">Hola</h1>
-      <Button colorScheme='blue' className='underline'>Button</Button>
-
-    </ChakraProvider>
+    <div >
+      <Nav />
+      <Home />
+      <div className='h-[900px]'></div>
+    </div>
   )
 }
